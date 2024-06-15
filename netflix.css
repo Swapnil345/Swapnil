@@ -1,0 +1,158 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background: rgba(0, 0, 0, 0.65);
+    background-image: url(https://i.redd.it/zjgs096khv591.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.nav-logo
+{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 200px;
+    position: absolute;
+    left: 150px;
+}
+.logo
+{
+    background-image: url("netflix_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+.navbar
+{
+    height: 80px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 70px; */
+    margin-right: 150px;
+}
+.spacing
+{
+    width: 100%;
+}
+.lang-icon
+{
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    /* text-align: center; */
+}
+.lang-icon select
+{
+    width: 126px;
+    height: 32px;
+    background-color: transparent;
+    color: white;
+    border: 0.5 solid transparent;
+}
+.lang-icon i
+{
+    color: white;
+}
+.sign-button button
+{
+    width: 76px;
+    height: 32px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+}
+.maincontent
+{
+    /* background-color: pink; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    /* background-color: yellow; */
+    font-family: sans-serif;
+    /* width: 8--px; */
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content p
+{
+    /* background-color: red; */
+    height: 23px;
+    margin-top: 16px;
+    font-size: 1.125rem;
+}
+.content h3
+{
+    /* background-color: green; */
+    /* width: 572px; */
+    height: 54px;
+    margin-top: 16px;
+    font-size: 1.125rem;
+}
+.content h1
+{
+    /* background-color: orange; */
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#email2
+{
+    height: 50px;
+    width: 400px;
+    background-color: transparent;
+    color: white;
+    /* filter: opacity(0%); */
+    border: 2px solid rgba(255, 251, 251, 0.39);
+    border-radius: 2px;
+}
+#email
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
+#started
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+    left: 765px;
+}
+#start
+{
+    height: 54px;
+    width: 160px;
+    background-color: red;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
